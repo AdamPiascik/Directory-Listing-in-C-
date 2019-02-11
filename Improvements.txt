@@ -1,0 +1,7 @@
+Functionality goals:
+	- Sort permissions issue
+    	- Print EMPTY on empty directory
+
+To improve:
+	- Try and split functions.cs into separate files?
+	- Document all functionality within the code
