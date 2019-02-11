@@ -3,13 +3,13 @@ using System.IO;
 using System.Text;
 using System.Collections.Generic;
 
-namespace DirectoryFunctions
+namespace DirectoryMethods
 {
-    /*  This class is just for containing the export function, which can be
+    /*  This class is just for containing the export method, which can be
         called without having to instantiate the Contents class */
     public class Contents
     {
-        /*  The export function takes a directory name and a desired ordering,
+        /*  The export method takes a directory name and a desired ordering,
             both as strings */
         static public void export(string parentDir, string ordering)
         {
@@ -20,6 +20,7 @@ namespace DirectoryFunctions
                 ordering */
             thisDir.sortContents(ordering);
             //  This prints the ordered list of directory contents
+            // toFile.exportListToFile(thisDir);
             thisDir.exportListToFile();
             /*  This recursively calls export on all the subfolders in the
                 directory, and will continue until it bottoms out at a directory
@@ -84,6 +85,11 @@ namespace DirectoryFunctions
             this.folderList = this.makeList("folders");
             this.fileList = this.makeList("files");
         }
+        /*  This method sorts the contents of the folderList and fileList
+            properties for the directory. When passed an appropriate ordering
+            option, it will sort the contents into that order using C#'s
+            in-built list sorting. Prints an error message and quits the program
+            if an incorrect option is passed. */
         public void sortContents(string ordering)
         {
             if (ordering == "-small-first"){
@@ -103,9 +109,15 @@ namespace DirectoryFunctions
                 this.fileList.Sort((file1, file2) => file2.itemName.CompareTo(file1.itemName));
             }
             else{
-
+                Console.WriteLine("\nERROR. The ordering you requested isn't valid. " +
+                                    "Please consult the readme for a list of available ordering options.");
+                System.Environment.Exit(-1);
             }
         }
+        /*  This method populates the fileList and folderList lists. It uses
+            the in-built GetDirectories() and GetFiles() methods, and calls
+            the custom getFolderSize() method to calculate the size of folders
+            and subfolders in the directory. */
         List<ItemTraits> makeList(string listType)
         {
             List<ItemTraits> traitList = new List<ItemTraits>();
@@ -126,6 +138,8 @@ namespace DirectoryFunctions
             }
             return traitList;
         }
+        /*  This method calculates the size of a folder by summing the sizes
+            of all files in the folder and constituent subfolders. */
         long getFolderSize(DirectoryInfo thisFolder)
         {
             FileInfo[] subfolderFiles = thisFolder.GetFiles("*", SearchOption.AllDirectories);
@@ -136,7 +150,7 @@ namespace DirectoryFunctions
         }
         public void exportListToFile()
         {
-            StreamWriter outputFile = new StreamWriter(@".\target dir contents.txt", true);
+            StreamWriter outputFile = new StreamWriter(@".\directory contents.txt", true);
             string listHead = String.Format("The contents of {0} are:\r\n",this.dir.FullName);
             outputFile.WriteLine(listHead);
             StringBuilder itemListing = new StringBuilder();
@@ -171,7 +185,7 @@ namespace DirectoryFunctions
             outputFile.WriteLine(listTail);
             outputFile.Close();
         }
-        public string sliceString(string originalName, int fieldWidth)
+        string sliceString(string originalName, int fieldWidth)
         {
             if (originalName.Length <= fieldWidth){
                 return originalName.PadRight(fieldWidth + 4);

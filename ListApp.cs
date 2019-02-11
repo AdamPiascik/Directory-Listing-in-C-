@@ -1,6 +1,6 @@
 using System.IO;
 using System;
-using Dir = DirectoryFunctions;
+using Dir = DirectoryMethods;
 
 namespace ListApp
 {
@@ -15,7 +15,7 @@ namespace ListApp
         {
             /*  Create a new text file for the listing results. If the file
                 already exists, it overwrites the contents. */
-            File.WriteAllText(@".\target dir contents.txt", String.Empty);
+            File.WriteAllText(@".\directory contents.txt", String.Empty);
             /*  If no arguments are supplied, default to listing the drive
                 contents in order of decreasing size. */
             if (args.Length == 0)
