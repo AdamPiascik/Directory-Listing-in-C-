@@ -1,0 +1,17 @@
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app are:
+
+    File      results.txt                                       7.33 MB
+    File      functions.cs                                      9.87 KB
+    File      listing.exe                                       9.22 KB
+    File      folderinfo.exe                                    5.12 KB
+    File      ListApp.cs                                        1.78 KB
+    File      app_design.txt                                      310 B
+    File      readme.md                                            81 B
+    File      TestFileWithMoreThanThirtyCharactersInIt
+              sName.txt                                             0 B
+    File      target dir contents.txt                               0 B
+    File      AnotherTestFileButThisTimeWithMoreThanSi
+              xtyBloodyCharactersInItsName.txt                      0 B
+
+                                         Total directory size = 7.36 MB
+

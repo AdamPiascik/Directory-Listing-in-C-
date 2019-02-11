@@ -1,0 +1,10 @@
+Functionality goals:
+	- Sort permissions issue
+	- Add error handling to all code
+		- Error if dir name not found
+		- Error if security permissions denied
+		- Error if wrong ordering given
+    	- Print EMPTY on empty directory
+
+Document all functionality within the code
+Write a readme file in Markdown
