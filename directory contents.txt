@@ -1,0 +1,239 @@
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp are:
+
+    Folder    .git                                            961.74 KB
+    File      directory contents.txt                                0 B
+    File      TestFileWithMoreThanThirtyCharactersInIt
+              sName.txt                                             0 B
+    File      AnotherTestFileButThisTimeWithMoreThanSi
+              xtyBloodyCharactersInItsName.txt                      0 B
+    File      app_design.txt                                      236 B
+    File      target dir contents.txt                             987 B
+    File      README.md                                         1.61 KB
+    File      ListApp.cs                                        1.78 KB
+    File      exporting.cs                                      3.16 KB
+    File      folderinfo.exe                                    5.12 KB
+    File      dirList.exe                                       9.73 KB
+    File      listing.exe                                       9.73 KB
+    File      functions.cs                                     10.94 KB
+    File      results.txt                                       7.33 MB
+
+                                         Total directory size = 8.33 MB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git are:
+
+    Folder    refs                                                114 B
+    Folder    info                                                240 B
+    Folder    logs                                              1.23 KB
+    Folder    hooks                                            18.84 KB
+    Folder    objects                                         939.81 KB
+    File      COMMIT_EDITMSG                                       15 B
+    File      HEAD                                                 23 B
+    File      description                                          73 B
+    File      packed-refs                                         114 B
+    File      config                                              321 B
+    File      index                                               954 B
+
+                                       Total directory size = 961.74 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\hooks are:
+
+    File      post-update.sample                                  189 B
+    File      pre-applypatch.sample                               424 B
+    File      applypatch-msg.sample                               478 B
+    File      pre-receive.sample                                  544 B
+    File      commit-msg.sample                                   896 B
+    File      pre-push.sample                                   1.35 KB
+    File      prepare-commit-msg.sample                         1.49 KB
+    File      pre-commit.sample                                 1.64 KB
+    File      fsmonitor-watchman.sample                         3.33 KB
+    File      update.sample                                     3.61 KB
+    File      pre-rebase.sample                                  4.9 KB
+
+                                        Total directory size = 18.84 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\info are:
+
+    File      exclude                                             240 B
+
+                                        Total directory size = 240.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\logs are:
+
+    Folder    refs                                                816 B
+    File      HEAD                                                412 B
+
+                                         Total directory size = 1.23 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\logs\refs are:
+
+    Folder    remotes                                             404 B
+    Folder    heads                                               412 B
+
+                                        Total directory size = 816.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\logs\refs\heads are:
+
+    File      master                                              412 B
+
+                                        Total directory size = 412.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\logs\refs\remotes are:
+
+    Folder    origin                                              404 B
+
+                                        Total directory size = 404.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\logs\refs\remotes\origin are:
+
+    File      master                                              174 B
+    File      HEAD                                                230 B
+
+                                        Total directory size = 404.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects are:
+
+    Folder    info                                                  0 B
+    Folder    pack                                                  0 B
+    Folder    e6                                                   15 B
+    Folder    b8                                                   54 B
+    Folder    6b                                                   83 B
+    Folder    9d                                                  115 B
+    Folder    ab                                                  179 B
+    Folder    65                                                  204 B
+    Folder    59                                                  337 B
+    Folder    cd                                                  409 B
+    Folder    14                                                  524 B
+    Folder    d6                                                  740 B
+    Folder    34                                                2.15 KB
+    Folder    e8                                                2.64 KB
+    Folder    b9                                                4.33 KB
+    Folder    7e                                              928.03 KB
+
+                                       Total directory size = 939.81 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\14 are:
+
+    File      8f2dfa9e0b894f75b396099f6738345dedb211              524 B
+
+                                        Total directory size = 524.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\34 are:
+
+    File      07a1135fd6fb6d1e16012c17b0e652d6a62c3a            2.15 KB
+
+                                         Total directory size = 2.15 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\59 are:
+
+    File      6ecf34b0035f93bdfd2f4910aa154be97b14dc              337 B
+
+                                        Total directory size = 337.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\65 are:
+
+    File      10ec281c15533c023eb67dde2925202b1668e1              204 B
+
+                                        Total directory size = 204.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\6b are:
+
+    File      ae470649985e86c7c2d6c18a8aa11bd0196bd4               83 B
+
+                                         Total directory size = 83.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\7e are:
+
+    File      0fea254bf6de5ebeec11d56291a9b96d25e821          928.03 KB
+
+                                       Total directory size = 928.03 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\9d are:
+
+    File      9f0363e852a7ddd7b7680a24b4a778c78746b3              115 B
+
+                                        Total directory size = 115.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\ab are:
+
+    File      e8259f284d816e587b9995f2792c75c2f565c4              179 B
+
+                                        Total directory size = 179.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\b8 are:
+
+    File      86aaf236d9108b6fe9fa9702e6dfd3d8342641               54 B
+
+                                         Total directory size = 54.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\b9 are:
+
+    File      d4ce59dac59e0b812d5e799ce6d00390635d9d            4.33 KB
+
+                                         Total directory size = 4.33 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\cd are:
+
+    File      6b1317aa86f28e71b64a5141641c9771c176d5              409 B
+
+                                        Total directory size = 409.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\d6 are:
+
+    File      44ab3a7a0a32ca640a75df76e89c2178527cab              740 B
+
+                                        Total directory size = 740.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\e6 are:
+
+    File      9de29bb2d1d6434b8b29ae775ad8c2e48c5391               15 B
+
+                                         Total directory size = 15.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\e8 are:
+
+    File      116371882c4e1397252457f3ad3ccf108639c2            2.64 KB
+
+                                         Total directory size = 2.64 KB
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\info are:
+
+
+                                          Total directory size = 0.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\objects\pack are:
+
+
+                                          Total directory size = 0.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\refs are:
+
+    Folder    tags                                                  0 B
+    Folder    heads                                                41 B
+    Folder    remotes                                              73 B
+
+                                        Total directory size = 114.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\refs\heads are:
+
+    File      master                                               41 B
+
+                                         Total directory size = 41.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\refs\remotes are:
+
+    Folder    origin                                               73 B
+
+                                         Total directory size = 73.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\refs\remotes\origin are:
+
+    File      HEAD                                                 32 B
+    File      master                                               41 B
+
+                                         Total directory size = 73.00 B
+
+The contents of C:\Users\adamp\Dropbox\Coding\C#\AVAMAE app\Directory-Listing-in-C-Sharp\.git\refs\tags are:
+
+
+                                          Total directory size = 0.00 B
+
