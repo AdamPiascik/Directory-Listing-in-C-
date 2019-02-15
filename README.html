@@ -391,7 +391,7 @@ of all subfolders. It prints the results to a text file called &quot;directory c
 the program executable itself.</p>
 <h2 id="installation">Installation</h2>
 <p>To compile this program into a usable .exe file, please enter:</p>
-<pre><code>csc -out:dirList.exe functions.cs listapp.cs
+<pre><code>csc -out:dirList.exe DirMethods.cs MainApp.cs
 </code></pre>
 <p>in a command line with access to the C# compiler.</p>
 <h2 id="usage">Usage</h2>
@@ -427,6 +427,19 @@ second. It will throw up an error if you don't conform to this.</p>
 </li>
 </ul>
 <p><strong>Note:</strong> folders are always listed before files.</p>
+<h2 id="known-issues">Known Issues</h2>
+<p>There seems to be a permissions issue when accessing some folders, even when the program is run as an admin.
+This manifests itself most notably when running the program on the whole drive, in which case many of the folders
+seem to be inaccessible and throw up an exception. Upon encountering this, the program will print a message to the console
+telling you this has happened, but the contents of that folder won't be written to &quot;directory contents.txt&quot;. On my PC,
+this will still print the contents of the C drive to the output file, but won't print the contents of any subfolders.
+Running the program on more specific directories seems to work well.</p>
+<h2 id="future-improvements">Future Improvements</h2>
+<ul>
+<li>Fix the above permissions issue</li>
+<li>Add printing of date information for files and folder</li>
+<li>Add options to sort by date information</li>
+</ul>
 
 </body>
 </html>

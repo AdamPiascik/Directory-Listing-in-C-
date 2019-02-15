@@ -8,7 +8,7 @@ the program executable itself.
 
 To compile this program into a usable .exe file, please enter:
 
-    csc -out:dirList.exe functions.cs listapp.cs
+    csc -out:dirList.exe DirMethods.cs MainApp.cs
 
 in a command line with access to the C# compiler.
 
@@ -37,3 +37,18 @@ The sorting options available are:
 * **-backward-alpha:** in reverse alphabetical order
 
 **Note:** folders are always listed before files.
+
+## Known Issues
+
+There seems to be a permissions issue when accessing some folders, even when the program is run as an admin.
+This manifests itself most notably when running the program on the whole drive, in which case many of the folders
+seem to be inaccessible and throw up an exception. Upon encountering this, the program will print a message to the console
+telling you this has happened, but the contents of that folder won't be written to "directory contents.txt". On my PC,
+this will still print the contents of the C drive to the output file, but won't print the contents of any subfolders.
+Running the program on more specific directories seems to work well.
+
+## Future Improvements
+
+* Fix the above permissions issue
+* Add printing of date information for files and folder
+* Add options to sort by date information
